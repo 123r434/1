@@ -101,20 +101,20 @@ async def start_(client: Client, message: Message):
 @Client.on_message(command(["مبرمج السورس", f"ؤمن", f"ورس", f"السورس", f"مطور", f"المطور"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/470b6107e78f484c1f4bc.jpg",
-        caption=f"""Programmer [⌯✧ميم آݪـ بـغـٰدٰآدٰي✧⌯](https://t.me/N_J_9) 𖡼\nᴛᴏ ᴄᴏᴍᴍụɴɪᴄᴀᴛᴇ ᴛᴏɢᴇᴛʜᴇʀ 𖡼\nғᴏʟʟᴏᴡ ᴛʜᴇ ʙụᴛᴛᴏɴѕ ʟᴏᴡᴇʀ 𖡼""",
+        photo=f"https://telegra.ph/file/11e8883bd616ee3c0e255.jpg",
+        caption=f"""https://t.me/k333k1""",
         reply_markup=InlineKeyboardMarkup(
          [
             [
-                InlineKeyboardButton("⌯✧𝑆𝑂𝐔𝑅𝐶𝐸  𝐴𝐿 𝑀𝐸𝑀✧⌯", url=f"https://t.me/U_K_M8"),
+                InlineKeyboardButton("GNAZA", url=f"https://t.me/W_D_9"),
             ],
             [
                 InlineKeyboardButton(
-                    " ⌯✧قناة البوت✧⌯.", url=f"https://t.me/X_8_00"
+                    " ⌯✧قناة البوت✧⌯.", url=f"https://t.me/W_D_9"
                 ),
             ],
             [
-                InlineKeyboardButton("⌯✧لتنصيب البوت✧⌯", url=f"https://t.me/N_J_9"),
+                InlineKeyboardButton("⌯✧لتنصيب البوت✧⌯", url=f"https://t.me/k333k1"),
             ]
          ]
      )
@@ -128,7 +128,7 @@ async def help(client: Client, message: Message):
         reply_markup=InlineKeyboardMarkup(
          [
             [
-                InlineKeyboardButton("⌯✧𝑆𝑂𝐔𝑅𝐶𝐸  𝐴𝐿 𝑀𝐸𝑀✧⌯", url=f"https://t.me/U_K_M8"),
+                InlineKeyboardButton("GNAZA", url=f"https://t.me/W_D_9"),
             ],
             [
                 InlineKeyboardButton(
