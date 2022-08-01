@@ -67,7 +67,7 @@ async def start_(client: Client, message: Message):
 
 ᥀︙ لمعرفة اوامر هذا البوت اضغط على » اوامر التشغيل!
 
-᥀︙⌯✧تم تطوير وكتابت الملفات من قبل» مــــ๋͜يــ๋͜ـم!⌯✧
+᥀︙شيرازي✧
 """,
         reply_markup=InlineKeyboardMarkup(
             [
@@ -84,7 +84,7 @@ async def start_(client: Client, message: Message):
                         "‹⌯✧قناة البوت✧⌯ › ", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "‹ ⌯✧𝚂𝙾𝚄𝚁𝙲𝙴 𝙰𝙻 𝙼𝙴𝙼✧⌯ ›", url=f"https://t.me/U_K_M8"
+                        "‹ ⌯✧شيرازي⌯ ›", url=f"https://t.me/W_D_9"
                     ),
                 ],
                 [
@@ -101,20 +101,21 @@ async def start_(client: Client, message: Message):
 @Client.on_message(command(["مبرمج السورس", f"ؤمن", f"ورس", f"السورس", f"مطور", f"المطور"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/470b6107e78f484c1f4bc.jpg",
-        caption=f"""Programmer [⌯✧ميم آݪـ بـغـٰدٰآدٰي✧⌯](https://t.me/N_J_9) 𖡼\nᴛᴏ ᴄᴏᴍᴍụɴɪᴄᴀᴛᴇ ᴛᴏɢᴇᴛʜᴇʀ 𖡼\nғᴏʟʟᴏᴡ ᴛʜᴇ ʙụᴛᴛᴏɴѕ ʟᴏᴡᴇʀ 𖡼""",
+        photo="
+  ."https://telegra.ph/file/ab4fadaed9464378c970d.jpg",
+        caption=f"""Programmer [⌯✧شيرازي⌯](https://t.me/Q_H_Q) 𖡼شيرازي""",
         reply_markup=InlineKeyboardMarkup(
          [
             [
-                InlineKeyboardButton("⌯✧𝑆𝑂𝐔𝑅𝐶𝐸  𝐴𝐿 𝑀𝐸𝑀✧⌯", url=f"https://t.me/U_K_M8"),
+                InlineKeyboardButton("⌯✧شيرازي✧⌯", url=f"https://t.me/W_D_9"),
             ],
             [
                 InlineKeyboardButton(
-                    " ⌯✧قناة البوت✧⌯.", url=f"https://t.me/X_8_00"
+                    " ⌯✧قناة البوت✧⌯.", url=f"https://t.me/W_D_9"
                 ),
             ],
             [
-                InlineKeyboardButton("⌯✧لتنصيب البوت✧⌯", url=f"https://t.me/N_J_9"),
+                InlineKeyboardButton("⌯✧لتنصيب البوت✧⌯", url=f"https://t.me/Q_H_Q"),
             ]
          ]
      )
@@ -128,7 +129,7 @@ async def help(client: Client, message: Message):
         reply_markup=InlineKeyboardMarkup(
          [
             [
-                InlineKeyboardButton("⌯✧𝑆𝑂𝐔𝑅𝐶𝐸  𝐴𝐿 𝑀𝐸𝑀✧⌯", url=f"https://t.me/U_K_M8"),
+                InlineKeyboardButton("شيرازي✧⌯", url=f"https://t.me/W_D_9"),
             ],
             [
                 InlineKeyboardButton(
